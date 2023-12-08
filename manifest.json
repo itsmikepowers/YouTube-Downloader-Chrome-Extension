@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Downloader Extension",
+    "description": "Downloads videos from youtube.",
+    "version": "1.0",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon128.png",
+        "48": "icon128.png",
+        "128": "icon128.png"
+      }
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
